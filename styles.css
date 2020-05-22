@@ -1,20 +1,17 @@
-body {
-    background-color: #3D5A80;
-}
-.wrapper {
-    border: dotted 10px #cbf3f0;
-    display: flex;
-    justify-content: center;
-}
-.content-center {
-    display: flex;
-    justify-content: center;
-}
-.header-class {
-    display: flex;
-    justify-content: center;
-}
-h3 {
-    display: flex;
-    justify-content: center;
+
+ @keyframes flash {
+    from {color: rgb(2, 2, 2);}
+    to {color: rgb(161, 161, 161);}       
+} 
+.flash {
+    animation-name: flash;
+     animation-duration: 2.0s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-play-state: running;
+ }
+
+.goldfish {
+    background-color: goldenrod;
 }
